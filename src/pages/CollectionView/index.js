@@ -94,7 +94,7 @@ export default function CollectionView({light, vibrant, dark}) {
         CONFIG.TEMPLATE.title = `${resp.data.data.items[0].collection_name !== "" ? resp.data.data.items[0].collection_name : CONFIG.TEMPLATE.title } Dashboard`
       }
     }catch(error){
-       console.log("Karan found it");
+       console.log("Karan found it ",error);
     }
     
     if(CONFIG.TEMPLATE.timeseries_chart){
