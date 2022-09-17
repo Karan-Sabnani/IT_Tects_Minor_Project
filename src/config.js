@@ -16,7 +16,7 @@ export const CONFIG = {
     "timeseries_chart": true,
 
     // 6. (Optional) Set your banner image
-    "banner_picture": "https://i.seadn.io/gae/VzyFhTxAQWIjNdDKBCpgl-sVomab0mmFQpVgk6_2YY4LqFaitf3RsvHiFJ5JmDxck6mxTHQkcVsdY-oxrUjdoEfhkRjHormYrvLLc6U?w=500&auto=format",
+    "banner_picture": "https://www.hollywoodreporter.com/wp-content/uploads/2022/05/Tweety-Looney-Tunes-Warner-Bros-Publicity-H-2022.jpg",
   },
 
   // Supported networks - just for your reference
