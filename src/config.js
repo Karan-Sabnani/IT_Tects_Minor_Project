@@ -10,7 +10,7 @@ export const CONFIG = {
     "title": "Crypto Coven Dashboard",
 
     // 4. Set your Covalent API Key
-    "api_key": "GRAANUFN4B15C14E23HQATEHZX3N4P4CCD",
+    "api_key": "ckey_90cca82ac27c40f6ba5153481c6",
 
     // 5. (Optional) Display the floor price chart
     "timeseries_chart": true,
