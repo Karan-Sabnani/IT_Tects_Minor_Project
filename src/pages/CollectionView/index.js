@@ -88,7 +88,7 @@ export default function CollectionView({light, vibrant, dark}) {
   const handleCollection = async() => {
     let collection = []
     try{
-      const resp = await axios.get(`https://api.covalenthq.com/v1/${blockchain_id}/block_v2/${address_id}/`,{auth: {username: CONFIG.TEMPLATE.api_key}})
+      const resp = await axios.get(`https://api.covalenthq.com/v1/${blockchain_id}/block_v2/5000000/`,{auth: {username: CONFIG.TEMPLATE.api_key}})
       setData([...resp.data.data.items])
       if(CONFIG.TEMPLATE.title !== "" && !address){
         CONFIG.TEMPLATE.title = `${resp.data.data.items[0].collection_name !== "" ? resp.data.data.items[0].collection_name : CONFIG.TEMPLATE.title } Dashboard`
